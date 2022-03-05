@@ -1,5 +1,6 @@
 import { Rating } from "@mui/material"
-import { Button, Card } from "react-bootstrap"
+import {  Card } from "react-bootstrap"
+import { Link } from "react-router-dom"
 import ShowMoreText from "react-show-more-text"
 
 const CardMovies =({movie ,handleDelete})=>{
@@ -16,8 +17,7 @@ const CardMovies =({movie ,handleDelete})=>{
                         </Card.Text>
                             <Rating  value={movie.rating} readOnly />
                     </Card.Body>
-                    <Button onClick={()=>handleDelete(movie.id)} variant="outline-danger">Delete</Button>{' '}
-                    <Button variant="outline-primary">Edit</Button>{' '}
+                    <Link to={`/movies/${movie.id}`}><h2>See more</h2></Link>
 
             </Card>
         </div>

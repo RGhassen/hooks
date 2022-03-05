@@ -23,10 +23,57 @@
     background: #9BB1FF;
 }
 #main{
-background-color: #BFD7FF;
+  background-color: #212529;
 }
 #addM {
   display: flex;
   justify-content: center;
   margin-top: 60px;
+}
+#addM button{
+  border-radius: 10px;
+  width: 200px;
+}
+#Home-tit{
+  text-align: center;
+  font-family: fantasy;
+  font-size: 40px;
+  margin-top: 30px;
+  color: #ff05059c;
+}
+#home-img{
+  margin-top: 20px;
+  width: 900px;
+  height: 400px;
+  margin-left: 75px;
+  border-radius: 10px;
+}
+.navbar-dark .navbar-brand a{
+  text-decoration: none;
+  color : #212529
+}
+.navbar-dark .navbar-nav .nav-link a{
+  text-decoration: none;
+  color : #212529
+}
+#filter-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#filter-main button{
+  width: 200px;
+  border-radius: 10px;
+}
+#filter-main input{
+  width: 300px;
+  margin-top: 15px;
+}
+.desc{
+  color : wheat
+}
+#Dcard{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
